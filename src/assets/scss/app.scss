@@ -4,20 +4,23 @@
 // Variables
 @use './partials/variables' as *;
 
+//font
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 #app_header {
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
+    font-size: small;
     position: absolute;
     width: 100%;
     padding: 0;
 }
 
 nav {
-    background-color: $rock-dark;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    background-color: $rock-dark;
     align-items: center;
     max-width: 100%;
     margin: auto;
@@ -32,15 +35,28 @@ nav {
 }
 
 .nav_menu {
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2rem;
+        margin-bottom: 0;
 
-    li {
+        li {
+            
+            a {
 
-        a {
-            text-decoration: none;
-            text-transform: uppercase;
+                text-decoration: none;
+                text-transform: uppercase;
+                text-decoration: none;
+            }
+
+
         }
     }
-}
-.navbar-nav .nav-link.active{
-    color: $rock-accent;
+
+    .navbar-nav .nav-link.active {
+        color: $rock-accent;
+    }
 }
