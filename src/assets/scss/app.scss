@@ -3,3 +3,44 @@
 
 // Variables
 @use './partials/variables' as *;
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+#app_header {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    position: absolute;
+    width: 100%;
+    padding: 0;
+}
+
+nav {
+    background-color: $rock-dark;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: auto;
+}
+
+.nav_logo {
+    padding: 1rem;
+
+    img {
+        height: 1.5rem;
+    }
+}
+
+.nav_menu {
+
+    li {
+
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+    }
+}
+.navbar-nav .nav-link.active{
+    color: $rock-accent;
+}
