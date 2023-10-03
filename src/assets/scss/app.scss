@@ -21,7 +21,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: $rock-dark;
-    align-items: center;
     max-width: 100%;
     margin: auto;
 }
@@ -44,13 +43,16 @@ nav {
         margin-bottom: 0;
 
         li {
-            
-            a {
+            align-items: center;
+            text-align: center;
 
+            a {
+                color: $rock-light;
                 text-decoration: none;
                 text-transform: uppercase;
                 text-decoration: none;
             }
+            
 
 
         }
