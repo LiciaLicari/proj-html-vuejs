@@ -194,6 +194,15 @@ nav {
     }
 }
 
+#music_video_section {
+    height: 100vh;
+    background-image: url(../img/Video-1536x541.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 0.5rem solid $rock-dark;
+    text-align: center;
+}
+
 .footer_top {
     img {
 
@@ -208,6 +217,8 @@ nav {
 .footer_mid {
     background-color: $rock-dark;
     color: $rock-light;
+    padding: 5rem;
+    
 
 }
 
