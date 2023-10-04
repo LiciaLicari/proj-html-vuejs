@@ -44,7 +44,89 @@ export default {
 
         <div id="music_video_section" class="p-5">
             <div class="container-fluid align-items-center d-flex flex-column py-5">
-                
+
+            </div>
+
+        </div>
+
+        <div id="gallery_section" class="p-5">
+            <div class="container">
+                <div class="row justify-content-space-around align-items-center g-4">
+                    <div class="col-4">
+
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-title">Lorem ipsum dolor sit.</h6>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores,
+                                    laboriosam?
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-title">Lorem ipsum dolor sit.</h6>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores,
+                                    laboriosam?
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-title">Lorem ipsum dolor sit.</h6>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores,
+                                    laboriosam?
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-space-around align-items-center g-4">
+                    <div class="col-4">
+
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-title">Lorem ipsum dolor sit.</h6>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores,
+                                    laboriosam?
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-title">Lorem ipsum dolor sit.</h6>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores,
+                                    laboriosam?
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-title">Lorem ipsum dolor sit.</h6>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores,
+                                    laboriosam?
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -147,5 +229,4 @@ export default {
 
 body {
     font-family: 'Oswald', sans-serif;
-}
-</style>
+}</style>
