@@ -42,7 +42,7 @@ export default {
 
         </div>
 
-        <div id="music_video_section" class="p-5">
+        <div id="video_section" class="p-5">
             <div class="container-fluid align-items-center d-flex flex-column py-5">
 
             </div>
@@ -121,6 +121,48 @@ export default {
                                 <h6 class="card-title">Lorem ipsum dolor sit.</h6>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores,
                                     laboriosam?
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="blog_section" class="p-5">
+            <div class="container">
+                <div class="row justify-content-space-around align-items-center g-4">
+                    <div class="col-4">
+
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-title">Lorem ipsum dolor sit.</h6>
+                            
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam libero ipsum itaque reiciendis architecto enim, omnis suscipit nesciunt id vitae et tenetur error animi aperiam laudantium rerum dolore fuga odio?
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-title">Lorem ipsum dolor sit.</h6>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam libero ipsum itaque reiciendis architecto enim, omnis suscipit nesciunt id vitae et tenetur error animi aperiam laudantium rerum dolore fuga odio??
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-title">Lorem ipsum dolor sit.</h6>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam libero ipsum itaque reiciendis architecto enim, omnis suscipit nesciunt id vitae et tenetur error animi aperiam laudantium rerum dolore fuga odio?
                                 </p>
 
                             </div>
