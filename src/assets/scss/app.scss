@@ -64,15 +64,15 @@ nav {
 .hero {
     height: 100vh;
 
-    .container-fluid 
-    h1 {
+    .container-fluid h1 {
         text-transform: uppercase;
         font-family: 'Oswald', sans-serif;
         font-weight: 500;
         font-size: 4.5rem;
         color: $rock-light;
     }
-    p{
+
+    p {
         margin-top: 6rem;
         text-transform: uppercase;
         letter-spacing: 1.5px;
@@ -85,6 +85,7 @@ nav {
 
 .bg_hero {
     background-image: url('../img/image_1.png');
+    background-size: cover;
     background-repeat: no-repeat;
     border: 0.5rem solid $rock-dark;
     text-align: center;
@@ -115,8 +116,8 @@ nav {
 }
 
 .card {
-   
-   
+
+
     border-radius: 0%;
     background-color: #121212;
 
@@ -130,17 +131,19 @@ nav {
 .card-body {
     padding-top: 2rem;
     padding-bottom: 3rem;
+
     h6 {
         text-align: center;
         color: $rock-light;
         text-transform: uppercase;
     }
+
     p {
         text-align: center;
         font-size: x-small;
         font-weight: 300;
         color: lightgray;
-}
+    }
 }
 
 #who_we_are_section {
@@ -149,7 +152,7 @@ nav {
     .container-fluid {
         max-width: 50%;
     }
-    
+
     h1 {
         text-align: center;
         text-transform: uppercase;
@@ -158,7 +161,7 @@ nav {
         color: $rock-light;
     }
 
-    h6{
+    h6 {
         text-align: center;
         margin-top: 6rem;
         text-transform: uppercase;
@@ -188,5 +191,16 @@ nav {
         padding: 0.6rem 2.5rem;
         margin-top: 2rem;
         margin-bottom: 8rem;
+    }
+}
+
+.footer_top {
+    img {
+
+        width: 100%;
+    }
+
+    .col {
+        border: 1px solid $rock-dark;
     }
 }
