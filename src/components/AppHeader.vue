@@ -54,6 +54,16 @@ export default {
                 </ul>
             </div>
         </nav>
+        <div class="hero bg_hero p-5 mb-4 bg-black">
+            <div class="container-fluid py-5">
+                <div class="">
+                    <p>Instrumental rock</p>
+                    <h1 class="">Music in this video</h1>
+                    <button type="button" class="btn btn_cstm btn-lg">read more</button>
+                    
+                </div>
+            </div>
+        </div>
 
     </header>
 </template>

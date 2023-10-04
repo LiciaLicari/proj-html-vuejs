@@ -26,7 +26,7 @@ nav {
 }
 
 .nav_logo {
-    padding: 1rem;
+    padding: 1.5rem;
 
     img {
         height: 1.5rem;
@@ -50,10 +50,8 @@ nav {
                 color: $rock-light;
                 text-decoration: none;
                 text-transform: uppercase;
-                text-decoration: none;
-            }
-            
 
+            }
 
         }
     }
@@ -61,4 +59,47 @@ nav {
     .navbar-nav .nav-link.active {
         color: $rock-accent;
     }
+}
+
+.hero {
+    height: 100vh;
+
+    .container-fluid h1 {
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 500;
+        font-size: 4.5rem;
+        color: $rock-light;
+    }
+    p{
+        margin-top: 6rem;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 500;
+        font-size: smaller;
+        color: $rock-accent;
+    }
+}
+
+.bg_hero {
+    background-image: url('../img/image_1.png');
+    background-repeat: no-repeat;
+    border: 0.5rem solid $rock-dark;
+    text-align: center;
+
+
+}
+
+.btn_cstm {
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: x-small;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: $rock-light;
+    border: 1px solid $rock-accent;
+    border-radius: 0%;
+    padding: 0.6rem 2.5rem;
+    margin-top: 2rem;
 }

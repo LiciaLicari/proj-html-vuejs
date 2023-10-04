@@ -2,17 +2,22 @@
 import AppHeader from './components/AppHeader.vue';
 
 export default {
-  name: 'App',
-  components: {
-    AppHeader,
-  }
+    name: 'App',
+    components: {
+        AppHeader,
+    }
 }
 </script>
 
 <template>
     <AppHeader />
 
-    <main></main>
+    <main>
+
+        
+
+
+    </main>
 
     <footer></footer>
 </template>
