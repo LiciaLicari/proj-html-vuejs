@@ -11,7 +11,7 @@
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
     font-size: x-small;
-    position: absolute;
+    //position: absolute;
     width: 100%;
     padding: 0;
 }
@@ -64,7 +64,8 @@ nav {
 .hero {
     height: 100vh;
 
-    .container-fluid h1 {
+    .container-fluid 
+    h1 {
         text-transform: uppercase;
         font-family: 'Oswald', sans-serif;
         font-weight: 500;
@@ -104,8 +105,19 @@ nav {
     margin-top: 2rem;
 }
 
+#app_cards {
+    position: relative;
+}
+
+#app_cards .row {
+    position: absolute;
+    width: 100%;
+    top: -5rem;
+}
+
 .card {
-    width: 19rem; 
+   
+   
     border-radius: 0%;
     background-color: #121212;
 
@@ -126,8 +138,29 @@ nav {
     }
     p {
         text-align: center;
-        font-size: small;
+        font-size: x-small;
         font-weight: 300;
         color: lightgray;
 }
+}
+
+#who_we_are_section {
+    background-color: $rock-dark;
+    
+    h1 {
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 500;
+        font-size: 4.5rem;
+        color: $rock-light;
+    }
+    p{
+        margin-top: 6rem;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 500;
+        font-size: smaller;
+        color: $rock-accent;
+    }
 }
