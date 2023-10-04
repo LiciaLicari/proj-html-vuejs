@@ -88,8 +88,6 @@ nav {
     background-repeat: no-repeat;
     border: 0.5rem solid $rock-dark;
     text-align: center;
-
-
 }
 
 .btn_cstm {
@@ -103,6 +101,7 @@ nav {
     border-radius: 0%;
     padding: 0.6rem 2.5rem;
     margin-top: 2rem;
+    margin-bottom: 8rem;
 }
 
 #app_cards {
@@ -112,7 +111,7 @@ nav {
 #app_cards .row {
     position: absolute;
     width: 100%;
-    top: -5rem;
+    top: -7rem;
 }
 
 .card {
@@ -146,21 +145,48 @@ nav {
 
 #who_we_are_section {
     background-color: $rock-dark;
+
+    .container-fluid {
+        max-width: 50%;
+    }
     
     h1 {
+        text-align: center;
         text-transform: uppercase;
         font-family: 'Oswald', sans-serif;
         font-weight: 500;
-        font-size: 4.5rem;
         color: $rock-light;
     }
-    p{
+
+    h6{
+        text-align: center;
         margin-top: 6rem;
         text-transform: uppercase;
         letter-spacing: 1.5px;
         font-family: 'Oswald', sans-serif;
-        font-weight: 500;
-        font-size: smaller;
+        font-weight: 400;
+        font-size: 0.6rem;
         color: $rock-accent;
+    }
+
+    p {
+        text-align: center;
+        font-size: x-small;
+        font-weight: 300;
+        color: lightgray;
+    }
+
+    .btn_cstm {
+        background-color: transparent;
+        text-transform: uppercase;
+        font-size: x-small;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: $rock-light;
+        border: 1px solid $rock-accent;
+        border-radius: 0%;
+        padding: 0.6rem 2.5rem;
+        margin-top: 2rem;
+        margin-bottom: 8rem;
     }
 }

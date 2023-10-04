@@ -110,8 +110,6 @@ export default {
 <style lang="scss" scoped>
 @use '../assets/scss/partials/variables' as *;
 
-#app_cards {
-    // margin-top: -8.5rem;
-}
+
 
 </style>
