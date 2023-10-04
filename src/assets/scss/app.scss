@@ -208,5 +208,21 @@ nav {
 .footer_mid {
     background-color: $rock-dark;
     color: $rock-light;
-   
+
+}
+
+.footer_bot {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: $rock-dark;
+    color: lightgray;
+    text-align: center;
+    font-weight: 200;
+    font-size: small;
+    padding: 1rem;
+
+    a {
+
+        color: inherit;
+        text-decoration: inherit;
+    }
 }

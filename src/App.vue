@@ -126,7 +126,12 @@ export default {
                 </div>
             </div>
         </div>
-        <div class="footer_bot"></div>
+        <div class="footer_bot">
+            <hr>
+            <p>2023 All Rights Reserved. Developed By
+                <a href="#">TemplateMela</a>
+            </p>
+        </div>
     </footer>
 </template>
 
