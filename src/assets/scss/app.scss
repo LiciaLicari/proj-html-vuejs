@@ -103,3 +103,31 @@ nav {
     padding: 0.6rem 2.5rem;
     margin-top: 2rem;
 }
+
+.card {
+    width: 19rem; 
+    border-radius: 0%;
+    background-color: #121212;
+
+    svg {
+        padding-top: 2rem;
+        align-self: center;
+        fill: $rock-light;
+    }
+}
+
+.card-body {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    h6 {
+        text-align: center;
+        color: $rock-light;
+        text-transform: uppercase;
+    }
+    p {
+        text-align: center;
+        font-size: small;
+        font-weight: 300;
+        color: lightgray;
+}
+}
