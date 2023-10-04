@@ -75,7 +75,57 @@ export default {
 
         </div>
 
-        <div class="footer_mid"></div>
+        <div class="footer_mid">
+            <div class="container">
+                <div class="row justify-content-space-around align-items-center">
+                    <div class="col">
+                        <ul class="list-unstyled">
+                            <h6>Bookings</h6>
+                            <li>502 New Design Str, Melbourne, San Francisco, CA 94110, United States of America Australia
+                            </li>
+                            <li>T: 1123-456-789</li>
+                            <li>E-mail: demo@example.com</li>
+                            <div>
+                                <img src="" alt="">
+                                <img src="" alt="">
+                                <img src="" alt="">
+                                <img src="" alt="">
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul class="list-unstyled">
+                            <h6>Information</h6>
+                            <li>Product Support</li>
+                            <li>Checkout</li>
+                            <li>Report Abuse</li>
+                            <li>Redeem Voucher</li>
+                            <li>Order Status</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul class="list-unstyled">
+                            <h6>Support</h6>
+                            <li>Policies & Rules</li>
+                            <li>Privacy Policy</li>
+                            <li>License Policy</li>
+                            <li>My account</li>
+                            <li>Locality</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h6>Newsletter</h6>
+                        <div class="mb-3">
+                            <label for="" class="form-label">Email</label>
+                            <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId"
+                                placeholder="abc@mail.com">
+                            <small id="emailHelpId" class="form-text text-muted">Help text</small>
+                        </div>
+                    </div>
+                    <div class="col"></div>
+                </div>
+            </div>
+        </div>
         <div class="footer_bot"></div>
     </footer>
 </template>
