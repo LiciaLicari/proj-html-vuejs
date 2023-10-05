@@ -356,6 +356,7 @@ nav {
         padding-top: 1rem;
         padding-bottom: 0.5rem;
         padding-right: 0;
+        padding-left: 0;
     }
 
     .card-body img {
@@ -372,12 +373,23 @@ nav {
         color: $rock-light;
     }
 
+    .card-text {
+        font-size: x-small;
+        font-weight: lighter;
+        color: $rock-accent;
+    }
+
     h1 {
         margin-bottom: 1.5rem;
         text-transform: uppercase;
         font-family: 'Oswald', sans-serif;
         font-weight: 500;
         color: $rock-light;
+    }
+    p {
+        margin-top: 0.5rem;
+        font-weight: 100;
+        letter-spacing: 1px;
     }
 }
 
