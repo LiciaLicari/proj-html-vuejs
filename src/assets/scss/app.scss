@@ -20,6 +20,11 @@
 
 }
 
+svg.cl_accent:hover{
+    filter: invert(52%) sepia(92%) saturate(473%) hue-rotate(353deg) brightness(94%) contrast(99%);
+
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -56,6 +61,7 @@ nav {
                 text-transform: uppercase;
 
             }
+           
 
         }
     }

@@ -12,7 +12,7 @@ export default {
 
                     <div class="card">
     
-                        <svg width=18% data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 708.98 990.01">
+                        <svg class="cl_accent" width=18% data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 708.98 990.01">
     
                             <path class="cls-1"
                                 d="M34.72,11C22.15,17.36,11.07,31.21,7.24,45.06c-3,10.87-3,889,0,899.9,3.83,13.85,14.91,27.7,27.48,34.09L46,985H663l11.29-6c12.57-6.39,23.65-20.24,27.48-34.09,3-10.87,3-889,0-899.9-3.83-13.85-14.91-27.7-27.48-34.09L663,5H46ZM655.1,49.74c4,2.34,4,9.37,4,445.26s0,442.92-4,445.26c-5.75,3-595.45,3-601.21,0-4-2.34-4-9.38-4-445.26,0-419.48.21-443.13,3.83-445C58.8,47,649.35,46.76,655.1,49.74Z">
@@ -38,7 +38,7 @@ export default {
                 <div class="col-4">
 
                     <div class="card">
-                        <svg width=25% data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 980">
+                        <svg class="cl_accent" width=25% data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 980">
                             <path
                                 d="M490,980C219.8,980,0,760.2,0,490S219.8,0,490,0,980,219.8,980,490,760.2,980,490,980Zm0-919.3C253.3,60.7,60.7,253.3,60.7,490S253.3,919.3,490,919.3,919.3,726.7,919.3,490,726.7,60.7,490,60.7Z">
                             </path>
@@ -81,7 +81,7 @@ export default {
                 <div class="col-4">
 
                     <div class="card">
-                        <svg width=25% data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 980">
+                        <svg class="cl_accent" width=25% data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 980">
                             <path
                                 d="M238.2,770.2H154.3C69.2,770.2,0,701,0,615.9v-42c0-85.1,69.2-154.3,154.3-154.3h83.9A28.38,28.38,0,0,1,266.6,448V741.7A28.4,28.4,0,0,1,238.2,770.2ZM154.3,476.4a97.56,97.56,0,0,0-97.5,97.5v42a97.56,97.56,0,0,0,97.5,97.5h55.6v-237Z">
                             </path>
