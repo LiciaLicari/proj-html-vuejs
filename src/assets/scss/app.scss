@@ -16,6 +16,11 @@
     padding: 0;
 }
 
+.orange_filter {
+    filter: invert(52%) sepia(92%) saturate(473%) hue-rotate(353deg) brightness(94%) contrast(99%);
+
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -153,6 +158,10 @@ nav {
         max-width: 50%;
     }
 
+    svg {
+        margin-bottom: 2rem;
+    }
+
     h1 {
         text-align: center;
         text-transform: uppercase;
@@ -214,8 +223,31 @@ nav {
 #gallery_section {
     background-color: $rock-dark;
 
+
+
+    h6 {
+        text-align: center;
+
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 400;
+        font-size: 0.6rem;
+        color: $rock-accent;
+    }
+
+    h1 {
+        margin-bottom: 1.5rem;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 500;
+        color: $rock-light;
+    }
+
+
     .card {
-        
+
         background: none;
         border: none;
     }
@@ -223,11 +255,11 @@ nav {
     .card-body {
         padding-top: 1rem;
         padding-bottom: 0.5rem;
-        }
+    }
 
     .card-body img {
-            width: 400px;
-            object-fit: contain;
+        width: 400px;
+        object-fit: contain;
 
     }
 
@@ -235,19 +267,19 @@ nav {
         margin-top: 0.5rem;
     }
 
-    
+
     .card-text {
         font-size: x-small;
         justify-content: center;
         color: $rock-light;
         gap: 1rem;
-        
+
         span {
             gap: 1rem;
             justify-content: center;
             align-items: center;
         }
-        
+
         svg {
             filter: invert(100%);
         }
@@ -258,9 +290,10 @@ nav {
     background-image: url('../img/cms_parallax.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    border: 0.5rem solid $rock-dark;
+    border-left: 0.3rem solid $rock-dark;
+    border-right: 0.3rem solid $rock-dark;
     text-align: center;
-    
+
 }
 
 #album_promo h1 {
@@ -277,7 +310,7 @@ nav {
     font-weight: 500;
     color: $rock-light;
 
-    p{
+    p {
         font-weight: 500;
         font-size: small;
     }
@@ -286,16 +319,52 @@ nav {
         filter: invert(100%);
         margin-bottom: 0.8rem;
     }
-    .award {
-        //gutter: 4rem;
-    }
+
 
     .bg_numbers {
         background-image: url('../img/counter_parallax.jpg');
+        border-left: 0.3rem solid $rock-dark;
+        border-right: 0.3rem solid $rock-dark;
         background-size: cover;
         background-repeat: no-repeat;
-        border: 0.5rem solid $rock-dark;
         text-align: center;
+    }
+}
+
+#blog_section {
+    background-color: $rock-dark;
+
+    .card {
+        background: none;
+        border: none;
+    }
+
+    .card-body {
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+        padding-right: 0;
+    }
+
+    .card-body img {
+        width: 400px;
+        object-fit: contain;
+
+    }
+
+    h6 {
+        text-align: start;
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 400;
+        color: $rock-light;
+    }
+
+    h1 {
+        margin-bottom: 1.5rem;
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 500;
+        color: $rock-light;
     }
 }
 
