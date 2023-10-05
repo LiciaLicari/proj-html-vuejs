@@ -55,10 +55,12 @@ nav {
             align-items: center;
             text-align: center;
 
-            a, svg {
+            a,
+            svg {
                 color: $rock-light;
                 text-decoration: none;
                 text-transform: uppercase;
+
                 &:hover {
                     color: $rock-accent;
                 }
@@ -369,6 +371,26 @@ button.bg_accent:hover {
 #blog_section {
     background-color: $rock-dark;
 
+    h6 {
+        color: $rock-accent;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 400;
+        font-size: 0.6rem;
+        margin-bottom: 2rem;
+    }
+
+    h2 {
+        color: $rock-light;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 500;
+
+    }
+
     .card {
         background: none;
         border: none;
@@ -387,12 +409,15 @@ button.bg_accent:hover {
 
     }
 
-    h6 {
-        text-align: start;
-        text-transform: uppercase;
-        font-family: 'Oswald', sans-serif;
-        font-weight: 400;
-        color: $rock-light;
+    .col-4 {
+        h6 {
+            text-align: start;
+            text-transform: uppercase;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 400;
+            color: $rock-light;
+
+        }
     }
 
     .card-text {
@@ -475,6 +500,6 @@ button.bg_accent:hover {
         color: inherit;
         text-decoration: inherit;
 
-        
+
     }
 }

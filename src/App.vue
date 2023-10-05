@@ -509,6 +509,8 @@ export default {
 
         <div id="blog_section" class="p-5">
             <div class="container">
+                <h6>Who we are</h6>
+                <h2>Best Music Blog</h2>
                 <div class="row justify-content-space-around align-items-center g-4 py-1">
                     <div class="col-4 text-start">
 
