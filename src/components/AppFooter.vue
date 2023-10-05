@@ -49,7 +49,7 @@ export default {
                             </li>
                             <li>T: 1123-456-789</li>
                             <li>E-mail: demo@example.com</li>
-                            <div>
+                            <div class="effect">
                                 <svg class="thebase-svg-icon thebase-instagram-alt-svg m-2" fill="currentColor" version="1.1"
                                     xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24">
                                     <title>Instagram</title>

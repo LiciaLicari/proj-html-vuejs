@@ -147,9 +147,9 @@ button.bg_accent:hover {
             width: 132px;
             aspect-ratio: 1/1;
             border-radius: 50%;
-            
+
             &:hover {
-                
+
                 border: 1px solid $rock-accent;
                 box-shadow: 0px 1px 14px $rock-accent;
             }
@@ -453,6 +453,10 @@ button.bg_accent:hover {
         background-color: transparent;
     }
 
+    .effect svg:hover {
+        color: $rock-accent;
+    }
+
 }
 
 .footer_bot {
@@ -468,5 +472,7 @@ button.bg_accent:hover {
 
         color: inherit;
         text-decoration: inherit;
+
+        
     }
 }
