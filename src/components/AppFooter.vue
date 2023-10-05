@@ -93,7 +93,7 @@ export default {
                                     Please enter a message in the textarea.
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn_cstm">Send Message</button>
+                            <button type="submit" class="btn btn_cstm bg_accent">Send Message</button>
                         </form>
                     </div>
                     <div class="col"></div>

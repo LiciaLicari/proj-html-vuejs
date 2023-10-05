@@ -36,7 +36,7 @@ export default {
                         dolores sunt porro earum? Eaque, deserunt tempore.</p>
                 </div>
                 <div>
-                    <button type="button" class="btn btn_cstm btn-lg">read more</button>
+                    <button type="button" class="btn btn_cstm btn-lg bg_accent">read more</button>
                 </div>
 
             </div>
@@ -427,7 +427,7 @@ export default {
                     <div class="flex-start">
                         <p>Instrumental rock</p>
                         <h1 class="">Album out now</h1>
-                        <button type="button" class="btn btn_cstm btn-lg">read more</button>
+                        <button type="button" class="btn btn_cstm btn-lg bg_accent">read more</button>
 
                     </div>
                 </div>
@@ -592,7 +592,7 @@ export default {
         </div>
 
     </main>
-    
+
     <AppFooter />
 
    

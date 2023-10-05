@@ -11,7 +11,7 @@ export default {
             <div class="">
                 <p>Instrumental rock</p>
                 <h1 class="">Music in this video</h1>
-                <button type="button" class="btn btn_cstm btn-lg">read more</button>
+                <button type="button" class="btn btn_cstm bg_accent btn-lg">read more</button>
 
             </div>
         </div>
