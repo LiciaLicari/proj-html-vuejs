@@ -411,13 +411,33 @@ nav {
     color: $rock-light;
     padding: 5rem;
 
+    h6 {
+        text-align: start;
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 400;
+        color: $rock-light;
+        margin-bottom: 1rem;
+    }
+
+    li {
+        margin-top: 0.5rem;
+        font-weight: 100;
+        letter-spacing: 1px;
+    }
+
+    .form-control {
+        border-radius: 0%;
+        border-color: rgb(32, 31, 31);
+        background-color: transparent;
+    }
 
 }
 
 .footer_bot {
     font-family: Arial, Helvetica, sans-serif;
     background-color: $rock-dark;
-    color: lightgray;
+    color: gray;
     text-align: center;
     font-weight: 200;
     font-size: small;

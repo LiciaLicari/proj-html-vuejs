@@ -558,7 +558,7 @@ export default {
 
                     </div>
                     <div class="col-4">
-                       
+
                         <div class="card rounded-0">
 
                             <img class="img-fluid" src="./assets/img/giveaways_rock.jpg" alt="">
@@ -621,9 +621,9 @@ export default {
         </div>
 
         <div class="footer_mid">
-            <div class="container">
-                <div class="row justify-content-space-around align-items-center">
-                    <div class="col">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-3">
                         <ul class="list-unstyled">
                             <h6>Bookings</h6>
                             <li>502 New Design Str, Melbourne, San Francisco, CA 94110, United States of America Australia
@@ -638,7 +638,7 @@ export default {
                             </div>
                         </ul>
                     </div>
-                    <div class="col">
+                    <div class="col-3">
                         <ul class="list-unstyled">
                             <h6>Information</h6>
                             <li>Product Support</li>
@@ -648,7 +648,7 @@ export default {
                             <li>Order Status</li>
                         </ul>
                     </div>
-                    <div class="col">
+                    <div class="col-3">
                         <ul class="list-unstyled">
                             <h6>Support</h6>
                             <li>Policies & Rules</li>
@@ -658,14 +658,24 @@ export default {
                             <li>Locality</li>
                         </ul>
                     </div>
-                    <div class="col">
+                    <div class="col-3">
                         <h6>Newsletter</h6>
-                        <div class="mb-3">
-                            <label for="mail_form" class="form-label">Email</label>
-                            <input type="email" class="form-control" name="" id="mail_form" aria-describedby="emailHelpId"
-                                placeholder="abc@mail.com">
-                            <small id="emailHelpId" class="form-text text-muted">Help text</small>
-                        </div>
+                        <form>
+                            <div class="mb-3">
+                                
+                                <input type="email" class="form-control" placeholder="Email" required id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                            
+                                <textarea class="form-control" id="validationTextarea"
+                                    placeholder="Message" required></textarea>
+                                <div class="invalid-feedback">
+                                    Please enter a message in the textarea.
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn_cstm">Send Message</button>
+                        </form>
                     </div>
                     <div class="col"></div>
                 </div>
