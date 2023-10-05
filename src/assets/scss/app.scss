@@ -115,7 +115,7 @@ nav {
     top: -7rem;
 }
 
-.card {
+#app_cards .card {
 
 
     border-radius: 0%;
@@ -201,7 +201,105 @@ nav {
     background-repeat: no-repeat;
     border: 0.5rem solid $rock-dark;
     text-align: center;
+
+    h1 {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 500;
+        color: $rock-light;
+    }
 }
+
+#gallery_section {
+    background-color: $rock-dark;
+
+    .card {
+        
+        background: none;
+        border: none;
+    }
+
+    .card-body {
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+        }
+
+    .card-body img {
+            width: 400px;
+            object-fit: contain;
+
+    }
+
+    .card-title {
+        margin-top: 0.5rem;
+    }
+
+    
+    .card-text {
+        font-size: x-small;
+        justify-content: center;
+        color: $rock-light;
+        gap: 1rem;
+        
+        span {
+            gap: 1rem;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        svg {
+            filter: invert(100%);
+        }
+    }
+}
+
+#album_promo .bg_promo {
+    background-image: url('../img/cms_parallax.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 0.5rem solid $rock-dark;
+    text-align: center;
+    
+}
+
+#album_promo h1 {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 4.5rem;
+    color: $rock-light;
+}
+
+#numbers_section {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    color: $rock-light;
+
+    p{
+        font-weight: 500;
+        font-size: small;
+    }
+
+    svg {
+        filter: invert(100%);
+        margin-bottom: 0.8rem;
+    }
+    .award {
+        //gutter: 4rem;
+    }
+
+    .bg_numbers {
+        background-image: url('../img/counter_parallax.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 0.5rem solid $rock-dark;
+        text-align: center;
+    }
+}
+
+
 
 .footer_top {
     img {
@@ -218,7 +316,7 @@ nav {
     background-color: $rock-dark;
     color: $rock-light;
     padding: 5rem;
-    
+
 
 }
 
