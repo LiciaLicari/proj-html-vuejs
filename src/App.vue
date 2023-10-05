@@ -421,8 +421,8 @@ export default {
 
         <div id="album_promo">
             <div class="bg_promo p-5 bg-black">
-                <div class="container-fluid py-5">
-                    <div class="">
+                <div class="container d-flex text-start py-5">
+                    <div class="flex-start">
                         <p>Instrumental rock</p>
                         <h1 class="">Album out now</h1>
                         <button type="button" class="btn btn_cstm btn-lg">read more</button>

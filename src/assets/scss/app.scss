@@ -271,7 +271,6 @@ nav {
         margin-top: 0.5rem;
     }
 
-
     .card-text {
         font-size: x-small;
         font-weight: lighter;
@@ -307,6 +306,15 @@ nav {
     font-weight: 500;
     font-size: 4.5rem;
     color: $rock-light;
+}
+#album_promo p {
+    margin-top: 6rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: smaller;
+    color: $rock-accent;
 }
 
 #numbers_section {
