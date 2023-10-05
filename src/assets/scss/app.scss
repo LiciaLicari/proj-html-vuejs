@@ -59,7 +59,9 @@ nav {
                 color: $rock-light;
                 text-decoration: none;
                 text-transform: uppercase;
-
+                &:hover {
+                    color: $rock-accent;
+                }
             }
 
 
