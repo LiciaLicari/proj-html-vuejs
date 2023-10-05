@@ -15,7 +15,6 @@
     width: 100%;
     padding: 0;
 }
-
 .orange_filter {
     filter: invert(52%) sepia(92%) saturate(473%) hue-rotate(353deg) brightness(94%) contrast(99%);
 
@@ -158,10 +157,6 @@ nav {
         max-width: 50%;
     }
 
-    svg {
-        margin-bottom: 2rem;
-    }
-
     h1 {
         text-align: center;
         text-transform: uppercase;
@@ -211,6 +206,10 @@ nav {
     border: 0.5rem solid $rock-dark;
     text-align: center;
 
+    svg {
+        margin-bottom: 1.5rem;
+    }
+
     h1 {
         text-align: center;
         text-transform: uppercase;
@@ -223,11 +222,9 @@ nav {
 #gallery_section {
     background-color: $rock-dark;
 
-
-
     h6 {
         text-align: center;
-
+       
         text-transform: uppercase;
         letter-spacing: 1.5px;
         font-family: 'Oswald', sans-serif;
@@ -244,7 +241,7 @@ nav {
         font-weight: 500;
         color: $rock-light;
     }
-
+    
 
     .card {
 
@@ -255,6 +252,13 @@ nav {
     .card-body {
         padding-top: 1rem;
         padding-bottom: 0.5rem;
+        h5 {
+            text-align: center;
+            text-transform: uppercase;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 500;
+            color: $rock-light;
+        }
     }
 
     .card-body img {
@@ -270,6 +274,7 @@ nav {
 
     .card-text {
         font-size: x-small;
+        font-weight: lighter;
         justify-content: center;
         color: $rock-light;
         gap: 1rem;

@@ -71,7 +71,7 @@ export default {
                             <img class="img-fluid" src="./assets/img/gallery1.jpg" alt="">
 
                             <div class="card-body">
-                                <h6 class="card-title">A roll and bang the floor</h6>
+                                <h5 class="card-title">A roll and bang the floor</h5>
                                 <div class="card-text d-flex">Stream On:
                                     <span class="d-flex">
 
@@ -126,10 +126,10 @@ export default {
 
                         <div class="card rounded-0">
 
-                            <img class="img-fluid" src="./assets/img/gallery1.jpg" alt="">
+                            <img class="img-fluid" src="./assets/img/gallery2.jpg" alt="">
 
                             <div class="card-body">
-                                <h6 class="card-title">A roll and bang the floor</h6>
+                                <h5 class="card-title">Your melody to our music</h5>
                                 <div class="card-text d-flex">Stream On:
                                     <span class="d-flex">
 
@@ -184,10 +184,10 @@ export default {
 
                         <div class="card rounded-0">
 
-                            <img class="img-fluid" src="./assets/img/gallery1.jpg" alt="">
+                            <img class="img-fluid" src="./assets/img/gallery3.jpg" alt="">
 
                             <div class="card-body">
-                                <h6 class="card-title">A roll and bang the floor</h6>
+                                <h5 class="card-title">touching heaven on frequency</h5>
                                 <div class="card-text d-flex">Stream On:
                                     <span class="d-flex">
 
@@ -244,10 +244,10 @@ export default {
 
                         <div class="card rounded-0">
 
-                            <img class="img-fluid" src="./assets/img/gallery1.jpg" alt="">
+                            <img class="img-fluid" src="./assets/img/gallery4.jpg" alt="">
 
                             <div class="card-body">
-                                <h6 class="card-title">A roll and bang the floor</h6>
+                                <h5 class="card-title">Music makes strong beats</h5>
                                 <div class="card-text d-flex">Stream On:
                                     <span class="d-flex">
 
@@ -302,10 +302,10 @@ export default {
 
                         <div class="card rounded-0">
 
-                            <img class="img-fluid" src="./assets/img/gallery1.jpg" alt="">
+                            <img class="img-fluid" src="./assets/img/gallery5.jpg" alt="">
 
                             <div class="card-body">
-                                <h6 class="card-title">A roll and bang the floor</h6>
+                                <h5 class="card-title">Sound is the spark of time</h5>
                                 <div class="card-text d-flex">Stream On:
                                     <span class="d-flex">
 
@@ -360,10 +360,10 @@ export default {
 
                         <div class="card rounded-0">
 
-                            <img class="img-fluid" src="./assets/img/gallery1.jpg" alt="">
+                            <img class="img-fluid" src="./assets/img/gallery6.jpg" alt="">
 
                             <div class="card-body">
-                                <h6 class="card-title">A roll and bang the floor</h6>
+                                <h5 class="card-title">make your night groovy</h5>
                                 <div class="card-text d-flex">Stream On:
                                     <span class="d-flex">
 
