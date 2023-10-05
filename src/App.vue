@@ -621,12 +621,15 @@ export default {
         </div>
 
         <div class="footer_mid">
-            <div class="container py-5">
+            <div class="container pt-5">
                 <div class="row">
                     <div class="col-3">
                         <ul class="list-unstyled">
                             <h6>Bookings</h6>
-                            <li>502 New Design Str, Melbourne, San Francisco, CA 94110, United States of America Australia
+                            <li>502 New Design Str, 
+                                Melbourne, San Francisco, 
+                                CA 94110, United States Of 
+                                America Australia
                             </li>
                             <li>T: 1123-456-789</li>
                             <li>E-mail: demo@example.com</li>
